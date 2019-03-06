@@ -1,0 +1,33 @@
+.button{
+  background: $button-blue;
+  border: none;
+  color:white;
+  display: inline-block;
+  font-size: $font-size-large;
+  font-weight: 300;
+  padding: 1rem;
+  text-decoration: none;
+  line-height: 1;
+  border-radius: 5px;
+
+  &--link{
+    background: none;
+
+    &-last{
+      margin-left: 5rem;
+
+      @media(max-width: 768px){
+        margin-left: 0;
+      }
+    }
+  }
+
+  &--secondary{
+    background: #888;
+  }
+
+  @media(max-width: 400px){
+    font-size: $font-size-small;
+  }
+  
+}

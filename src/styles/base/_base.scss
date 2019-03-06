@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $m-size;
+  background-color: white;
+  color: $dark-gray;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+
+  &:disabled{
+    cursor:default;
+  }
+}
+
+
+.is-active{
+  color: rgb(31, 95, 231);
+  font-weight:bold;
+}
+
