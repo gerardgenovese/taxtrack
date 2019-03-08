@@ -15,23 +15,7 @@ import { firebase } from "./firebase/firebase";
 import LoadingPage from "./components/LoadingPage";
 
 
-// import "./playground/promises";
-
-
-
-const timeStamp = 0;
-
 const store = configureStore();
-
-// const waterBill = store.dispatch(addExpense({ description: "Water Bill", amount: 500, createdAt: timeStamp }));
-// const gasBill = store.dispatch(addExpense({ description: "Gas Bill", amount: 125, createdAt: timeStamp + 1 }));
-// store.dispatch(addExpense({ description: "Rent", amount: 1500, createdAt: 2 }));
-
-// store.dispatch(setTextFilter("gas"));
-
-// const state = store.getState();
-// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-// console.log(visibleExpenses);
 
 
 const jsx = (
