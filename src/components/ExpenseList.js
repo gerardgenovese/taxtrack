@@ -16,7 +16,7 @@ const ExpenseList = (props) => {
 			{
 				props.expenses.length === 0 ? (
 					<div className="list-item list-item--message">
-						<span>No Expenses</span>
+						<span>No Deductions</span>
 					</div>
 				) : (
 						props.expenses.map(expense => {
